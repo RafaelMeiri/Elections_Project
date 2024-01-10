@@ -1,1 +1,20 @@
-Python project
+
+**Python Project - Markets around elections**
+
+**Project Goals:**
+- Analyzing the effects of elections on the stock market.
+- Analyzing how to generate profits from elections in different countries.
+- Checking if political efficacy has a different effect on the market (left/right won).
+
+**Data:**
+- Yahoo Finance package.
+- Election dates and data in Excel (self-made).
+
+**Functions:**
+- Max_profit_calculator_yearly: This function will calculate how you could have made the most profit in an election year.
+- Election_distance: This function will analyze the effect of the distance from or after the election (Does the election make the market rise or fall? Do the days prior to the election make the market rise or fall?)
+- Left_Right_profits: This function will return...
+- Market_stability: This function will return the most stable time period for the market during an election year.
+
+**Manipulation:**
+- We will neglect the effects of the 2008 crisis and the 2020 COVID outbreak to maintain accurate results.
