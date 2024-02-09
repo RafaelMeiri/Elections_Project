@@ -9,16 +9,18 @@ We aim to provide practical insights into the connections between elections and 
 - Analyzing the effects of elections on the stock market.
 - Analyzing how to generate profits from elections in different countries.
 - Checking if political efficacy has a different effect on the market (left/right won).
+- Checking our thesis - stock markets don't like uncertainty therfore election years should be worse   than the avg year
 
 **Data**
 - Yahoo Finance package.
 - Election dates and data in Excel (self-made).
 
 **Key points - Functions**
-- Max_profit_calculator_yearly: This function will calculate how you could have made the most profit in an election year.
-- Election_distance: This function will analyze the effect of the distance from or after the election (Does the election make the market rise or fall? Do the days before the election make the market rise or fall?)
-- Left_Right_profits: This function will return...
-- Market_stability: This function will return the most stable period for the market during an election year.
-
-
-
+- fetch_stock_data(ticker, start_date, end_date):
+    Fetches historical stock data from Yahoo Finance.
+- calculate_return(stock_data):
+    Calculates the return of an investment.
+    This function will help us calculate invesment returns in certains years
+- predict_investment_return(country, historical_data):
+    Predicts whether to invest in a market based on the country, election year status, political spectrum, and historical data.
+    Our main function, will give the user advise based on the information the user provivdes
