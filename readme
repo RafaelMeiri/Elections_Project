@@ -20,6 +20,5 @@ We aim to provide practical insights into the connections between elections and 
 - Left_Right_profits: This function will return...
 - Market_stability: This function will return the most stable period for the market during an election year.
 
-**Manipulation**
-- We will neglect the effects of the 2008 crisis and the 2020 COVID outbreak to maintain accurate results.
+
 
